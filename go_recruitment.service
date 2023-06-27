@@ -1,0 +1,11 @@
+[Unit]
+Description=Golang Recruitment
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=docker
+ExecStart=/home/docker/go_recruitment_app/invosa_go_recruitment_app
+
